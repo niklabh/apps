@@ -51,6 +51,7 @@
        8	Hging                         	Add MathChain mainnet support (#6214)
        8	illlefr4u                     	new additions to Russian translation (#2948)
        8	Jakub Jóźwiak                 	Code signing and Notarization (#2794)
+       8	Nikhil Ranjan                 	instantiate
        8	Oleh Mell                     	Add new Subsocial parachain provider (#8370)
        7	abhath-labs                   	[fix] Update Bitgreen urls (#8866)
        7	alanchang124                  	add onfinality endpoint for acala mandala tc7 (#7615)
@@ -97,7 +98,6 @@
        5	mosonyi                       	Add new OnFinality endpoint for Integritee and remove Solo (#7628)
        5	Myron                         	[Crust] Add crust shadow crowdloan 2 (#8185)
        5	Nazar Mokrynskyi              	Remove extra Subspace Gemini 2a RPC endpoints (#8438)
-       5	Nikhil Ranjan                 	Added Governance v2 External links for polkassembly (#8389)
        5	Rob Thijssen                  	dolphin load balanced endpoint (#7667)
        5	xnorly                        	trying to improve the filtering options for target validators (#7080)
        4	billjhlee                     	Update Unorthodox Kusama Parachain / Standard Westend Test Network Chain Logo (#6192)
@@ -320,6 +320,7 @@
        1	Jun Zhang                     	Update translation.json (#4508)
        1	Kai                           	Fix broken contract deployment function (#1643)
        1	kaichao                       	Refresh zh translations (#3322)
+       1	kamrangul2404                 	Add krest parachain (kusama)  (#9079)
        1	Kerwin Zhu                    	fix Chinese translation of 'comm.' (#4464)
        1	Kevin Gislason                	add manta testnet (#5355)
        1	KkenWv                        	Add KICO logo and endpoint (#6906)
