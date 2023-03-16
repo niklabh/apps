@@ -78,7 +78,7 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   }
 
   .highlight--bg {
-    background: ${getHighlight(uiHighlight)} !important;
+    background: #050632 !important;
   }
 
   .highlight--bg-contrast {
@@ -139,10 +139,6 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
     color: ${getHighlight(uiHighlight)} !important;
   }
 
-  .highlight--color-contrast {
-    color: ${getContrast(uiHighlight)};
-  }
-
   .highlight--fill {
     fill: ${getHighlight(uiHighlight)} !important;
   }
@@ -153,7 +149,7 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
 
   .ui--MenuItem.topLevel:hover,
   .ui--MenuItem.isActive.topLevel:hover {
-    color: ${getContrast(uiHighlight)};
+    color: #ffffff;
 
     a {
       background-color: ${getMenuHoverContrast(uiHighlight)};
@@ -161,12 +157,12 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   }
 
   .menuItems li:hover .groupHdr {
-    background: ${getMenuHoverContrast(uiHighlight)};
-    color: ${getContrast(uiHighlight)};
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
   }
 
   .groupMenu {
-    background: ${getHighlight(uiHighlight)} !important;
+    background: #C6A35B;
 
     &::before {
       background: ${getMenuHoverContrast(uiHighlight)};

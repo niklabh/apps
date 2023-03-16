@@ -129,8 +129,8 @@ const StyledSpan = styled.span`
     text-align: right;
 
     > .ui--FormatBalance-postfix {
-      font-weight: lighter;
       vertical-align: baseline;
+      color: #7a7783;
     }
   }
 

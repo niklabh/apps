@@ -54,16 +54,16 @@ function Progress ({ className = '', isBlurred, isDisabled, total, value }: Prop
       <Clip
         angle={
           drawAngle <= 180
-            ? drawAngle.toFixed(1)
-            : '180'
+            ? (drawAngle - 180).toFixed(1)
+            : '0'
         }
         type='first'
       />
       <Clip
         angle={
           drawAngle <= 180
-            ? '0'
-            : (drawAngle - 180).toFixed(1)
+            ? '180'
+            : (drawAngle - 0).toFixed(1)
         }
         type='second'
       />
@@ -103,10 +103,10 @@ const StyledDiv = styled.div`
 
   .inner {
     align-items: center;
-    background: var(--bg-inverse);
+    background: #c6a35b;
     border-radius: 100%;
     bottom: 0.375rem;
-    color: var(--color-summary);
+    color: #424242;
     display: flex;
     justify-content: center;
     left: 0.375rem;
@@ -123,12 +123,12 @@ const StyledDiv = styled.div`
   .clip {
     div {
       border-radius: 100%;
-      bottom: 0;
+      bottom: -5px;
       left: 0;
       position: absolute;
       right: 0;
       transform: rotate(0);
-      top: 0;
+      top: -5px;
       zoom: 1;
     }
   }

@@ -93,9 +93,10 @@ const StyledDiv = styled.div`
 
   .ui--Modal__body {
     margin-top: 30px;
-    background: var(--bg-page);
-    border-radius: 4px;
     box-shadow: none;
+    background: linear-gradient(var(--bg-page) 0 0) padding-box, linear-gradient(134.26deg, #c6a35b 10.02%, rgba(198, 163, 91, 0.18) 90.94%) border-box;
+    border: 1px solid transparent;
+    border-radius: 24px;
 
     display: flex;
     flex-direction: column;

@@ -295,6 +295,20 @@ const StyledMain = styled.main`
 
     .ui--Progress {
       margin: 0.75rem;
+
+      > .highlight--bg {
+        background: #f7b95b !important;
+      }
+
+      .second {
+        > .highlight--bg {
+          background: #47486B !important;
+        }
+      }
+
+      .clip {
+        background: #f7b95b;
+      }
     }
   }
 `;

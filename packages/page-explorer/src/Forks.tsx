@@ -430,7 +430,7 @@ const StyledDiv = styled.div`
       }
 
       &.header {
-        background: #fff;
+        background: #191a43;
         border: 1px solid #e6e6e6;
         border-radius: 0.25rem;
 

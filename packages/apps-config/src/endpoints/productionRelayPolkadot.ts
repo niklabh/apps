@@ -678,7 +678,7 @@ export const prodRelayPolkadot: EndpointOption = {
   teleport: getTeleports(prodParasPolkadotCommon),
   text: 'Polkadot',
   ui: {
-    color: '#e6007a',
+    color: '#c6a35b',
     logo: chainsPolkadotCircleSVG
   }
 };

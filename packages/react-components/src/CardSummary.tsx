@@ -118,6 +118,26 @@ const StyledArticle = styled.article`
 
   .ui--Progress {
     margin: 0.5rem 0.125rem 0.125rem 0.75rem;
+
+    > .highlight--bg {
+      background: #f7b95b !important;
+    }
+
+    .second {
+      > .highlight--bg {
+        background: #47486B !important;
+      }
+    }
+
+    .first {
+      > .highlight--bg {
+        background: #47486B !important;
+      }
+    }
+
+    .clip {
+      background: #f7b95b;
+    }
   }
 
   > .ui--Labelled {
