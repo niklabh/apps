@@ -177,6 +177,12 @@ const StyledDiv = styled.div`
     width: 100%;
     max-width: var(--width-full);
     margin: 0 auto;
+
+    .smallHide {
+      + div {
+        color: #fff;
+      }
+    }
   }
 
   &.isLoading {

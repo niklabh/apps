@@ -23,7 +23,7 @@ function Actions ({ children, className = '' }: Props): React.ReactElement<Props
 
 const StyledDiv = styled.div`
   background-color: var(--bg-input);
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 24px 24px;
 
   .ui--Button-Group {
     margin: 1rem 1rem;

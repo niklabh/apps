@@ -278,7 +278,7 @@ function InputNumber ({ autoFocus, bitLength = DEFAULT_BITLENGTH, children, clas
 const StyledInput = styled(Input)`
   .siUnit {
     bottom: 0.85rem;
-    color: var(--color-label);
+    color: var(--color-text);
     font-size: var(--font-size-tiny);
     font-weight: var(--font-weight-label);
     position: absolute;

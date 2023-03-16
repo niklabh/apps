@@ -131,6 +131,7 @@ function General ({ className = '' }: Props): React.ReactElement<Props> {
       <div className='ui--row'>
         <Dropdown
           defaultValue={state.uiTheme}
+          isDisabled={true}
           label={t<string>('default interface theme')}
           onChange={_handleChange('uiTheme')}
           options={themeOptions}

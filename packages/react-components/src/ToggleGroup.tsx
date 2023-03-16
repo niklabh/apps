@@ -89,6 +89,11 @@ const StyledDiv = styled.div`
   .ui--Button {
     margin: 0;
 
+    &:hover {
+      background: rgba(255, 255, 255, 0.15) !important;
+      color: #ffffff !important;
+    }
+
     &:not(:first-child) {
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
